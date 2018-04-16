@@ -15,12 +15,18 @@
 ## Пример
 ```
 <!--<new_informer>-->{
-  "title":"Новый информер 1",
+  "title":"Новый информер",
   "module":"bl",
-  "sort":"1",
-  "max_entries":"5",
-  "max_columns":"1",
+  "sort":"",
+  "max_entries":"",
+  "max_columns":"",
+  "categories_list":"",
+  "entries_list":"",
+  "title_max_length":"",
   "data_type":"1",
+  "curdate":"",
+  "template":"",
+  "no_entries_msg":""
 }<!--</new_informer>-->
 ```
 **Важно** если вы укажете пустой параметр, информер не будет создан. Не указывайте пустые параметры при создании информеров.
